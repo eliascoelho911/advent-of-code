@@ -1,10 +1,8 @@
-package day1
-
 import kotlin.math.abs
 import util.InputReader
 
 fun main(args: Array<String>) {
-    val (firstColumn, secondColumn) = InputReader.readTwoLongColumns("day1/day1_input.txt").let {
+    val (firstColumn, secondColumn) = InputReader.readTwoLongColumns("day1_input.txt").let {
         it.first.sorted() to it.second.sorted()
     }
 

@@ -1,10 +1,8 @@
-package day2
-
 import kotlin.math.abs
 import util.InputReader
 
 fun main(args: Array<String>) {
-    val reports = InputReader.readIntLines("day2/day2_input.txt")
+    val reports = InputReader.readIntLines("day2_input.txt")
     var partOneSafeReports = 0
     var partTwoSafeReports = 0
 
