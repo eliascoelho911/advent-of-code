@@ -15,13 +15,9 @@ Este repositório está organizado da seguinte forma:
 ├── src/
 │   ├── main/
 │   │   └── kotlin/
-│   │       └── day1/
-│   │           ├── Part1.kt
-│   │           └── Part2.kt
+│   │       └── Day1.kt
 ├── resources/
-│   ├── day1
-│       ├── part1.txt
-│       └── part2.txt
+│   ├── day1.txt
 │   └── ...
 └── README.md
 ```
